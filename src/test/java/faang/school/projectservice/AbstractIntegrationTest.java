@@ -18,7 +18,7 @@ import org.testcontainers.utility.DockerImageName;
 
 @SpringBootTest
 @Testcontainers
-@ActiveProfiles("it")
+@ActiveProfiles("test")
 public abstract class AbstractIntegrationTest {
     public static final String MINIO_BUCKET = "projectbucket";
 
